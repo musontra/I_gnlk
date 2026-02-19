@@ -1,0 +1,198 @@
+want you to build a creative mobile application using React Native + Expo.
+
+This is a university project. The goal is to transform a simple list-based structure into a meaningful and original concept.
+
+📱 Project Name
+
+“Iyilik Günlüğüm” (My Recovery Journal)
+
+🎯 Core Concept
+
+This is not just a symptom tracker.
+
+It is a personal resilience and emotional well-being tracking app for people going through challenging life phases (health, exams, stress, burnout, etc.).
+
+The app should feel supportive, calming, and empowering.
+
+💡 Unique Idea
+
+Instead of a basic list app, this application allows users to:
+
+Track daily emotional state
+
+Record energy levels
+
+Add small daily wins
+
+View motivational suggestions
+
+See their personal progress over time
+
+The design should reflect emotional support and positivity.
+
+⚙️ Technical Requirements (Mandatory)
+
+React Native + Expo
+
+React Navigation (Stack)
+
+Functional components
+
+useState & useEffect
+
+AsyncStorage for saving entries
+
+Clean component structure
+
+Proper loading, empty, and error states
+
+No backend required.
+
+📂 Required Screens
+1️⃣ Welcome / Login Screen
+
+Simple mock login
+
+Loading indicator before navigation
+
+Error if fields empty
+
+2️⃣ Home Dashboard
+
+Show summary cards:
+
+Today's Mood
+
+Energy Level
+
+Add New Entry
+
+My Progress
+
+Motivation Library
+
+Clean grid layout with rounded cards.
+
+3️⃣ Daily Entry Screen (Form → Save Flow)
+
+Fields:
+
+Mood (emoji selector)
+
+Energy level (1–10 slider)
+
+Small Win (text input)
+
+Notes (optional)
+
+On save:
+
+Store in AsyncStorage
+
+Show success message
+
+Clear form
+
+If error → show error alert.
+
+4️⃣ My Entries Screen (List → Detail Flow)
+
+Display saved entries
+
+If empty → show warm empty state message
+
+Each entry navigates to detail screen
+
+Entry Detail Screen
+
+Show mood
+
+Show energy level
+
+Show notes
+
+Show motivational suggestion
+
+5️⃣ Motivation Library Screen
+
+Predefined mock list:
+
+Short motivational messages
+
+Expandable cards
+
+🎨 UI/UX Direction
+
+Soft gradient backgrounds
+
+Calm pastel color palette
+
+Rounded cards
+
+Friendly typography
+
+Smooth spacing
+
+Subtle animations if possible
+
+The app should feel emotionally safe and modern.
+
+🧠 State Management
+
+Must include:
+
+Loading states
+
+Empty states
+
+Error handling
+
+Input validation
+
+📁 Folder Structure
+
+/components
+/screens
+/navigation
+/data
+/utils
+
+📘 README.md Must Include
+
+Project idea explanation
+
+Why this concept is unique
+
+Installation steps
+
+Features
+
+Technologies used
+
+🚫 Do NOT:
+
+Add backend
+
+Add Redux
+
+Overcomplicate architecture
+
+Add unnecessary libraries
+
+Keep it elegant and meaningful.
+
+🎯 Goal
+
+Create a project that technically fulfills:
+
+3+ screens
+
+List → detail flow
+
+Form → save flow
+
+AsyncStorage usage
+
+Loading & error states
+
+But conceptually feels creative, original, and emotionally engaging.
